@@ -108,8 +108,8 @@
        </nuclide>
      </recipe>
      
-     <recipe>
-       <name>fresh_mox</name>
+     <!--<recipe>
+       <name>fresh_mox</name> !!!check the index here
        <basis>mass</basis>
        <nuclide>
          <id>94239</id>
@@ -119,7 +119,7 @@
          <id>92238</id>
          <comp>0.92</comp>
        </nuclide>
-     </recipe>
+     </recipe>-->
 
      <recipe>
        <name>spent_fuel</name>
