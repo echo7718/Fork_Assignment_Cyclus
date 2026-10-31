@@ -56,10 +56,10 @@
          <name>tails</name>
          <solution_priority>1.0</solution_priority>
        </commodity>
-       <commodity>
+       <!--<commodity> !!!turned off fresh mox
          <name>fresh_mox</name>
          <solution_priority>1.0</solution_priority>
-       </commodity>
+       </commodity>-->
        <commodity>
          <name>spent_fuel</name>
          <solution_priority>1.0</solution_priority>
@@ -68,14 +68,14 @@
          <name>spent_mox</name>
          <solution_priority>1.0</solution_priority>
         </commodity>
-       <commodity>
+       <!--<commodity> !!! turned off waste
          <name>waste</name>
          <solution_priority>1.0</solution_priority>
-       </commodity>
-       <commodity>
+       </commodity>-->
+       <!--<commodity> !!!turned off sep_pu
          <name>sep_pu</name>
          <solution_priority>1.0</solution_priority>
-       </commodity>
+       </commodity>-->
        <commodity>
          <name>spent_uox</name>
          <solution_priority>1.0</solution_priority>
@@ -143,9 +143,9 @@
      <name>PWR</name>
      <config>
        <Reactor>
-         <fuel_incommods> <val>fresh_uox</val></fuel_incommods>  <!-- removed fresh mox from pwr -->
-         <fuel_prefs> <val>1.0</val></fuel_prefs> <!--removed fuel preference -->
-         <fuel_inrecipes> <val>fresh_uox</val></fuel_inrecipes> <fuel_incommods> <val>fresh_uox</val></fuel_incommods>  <!-- removed fresh mox from pwr -->
+         <fuel_incommods><val>fresh_uox</val></fuel_incommods>  <!-- removed fresh mox from pwr -->
+         <fuel_prefs><val>1.0</val></fuel_prefs> <!--removed fuel preference -->
+         <fuel_inrecipes><val>fresh_uox</val></fuel_inrecipes>  <!-- removed fresh mox from pwr -->
          <fuel_outcommods><val>spent_fuel</val></fuel_outcommods> <!--removed spent mox from reactor out-->
          <fuel_outrecipes><val>spent_fuel</val></fuel_outrecipes> <!--removed spent_fuel from fuel_outrecipes-->
          <cycle_time>17</cycle_time>
